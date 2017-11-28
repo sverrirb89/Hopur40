@@ -1,41 +1,38 @@
-//
-//  main.cpp
-//  litidverkefni
-//
-//  Created by sverrir torfason on 27/11/2017.
-//  Copyright © 2017 sverrir torfason. All rights reserved.
-//
-
 #include <iostream>
 #include <fstream>
-#include <string>
+#include "header.hpp"
 using namespace std;
-int main(int argc, const char * argv[]) {
- 
+
+
+int main() {
+    
     string str;
     ifstream fin;
-    int i = 0;
+    char answer;
     
     fin.open("TextFile.txt");
     
-    if (fin.is_open()) {
-        while(!fin.eof() && i < 10){
-            getline(fin, str);
-           
-            cout << str << endl;
-       
-            i++;
-            
+    do {
+        if (fin.is_open()) {
+            for(int i = 0; i < 10; i++) {
+                getline(fin, str);
+                
+                cout << str << endl;
+            }
         }
         
-        fin.close();
-    }
-    
-    else {
-        cout << "Unable to read from file!" << endl;
+        else {
+            cout << "Unable to read from file!" << endl;
+        }
         
-    }
+        do {
+            cout << "Continue? (y/n)" << endl;
+            cin >> answer;
+        } while (answer != 'y' && answer != 'n');
+    } while (answer != 'n');
     
-  
+    fin.close();
+    
     return 0;
 }
+
