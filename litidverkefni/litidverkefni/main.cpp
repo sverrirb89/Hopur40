@@ -7,9 +7,28 @@
 //
 
 #include <iostream>
-
+#include <fstream>
+using namespace std;
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    
+    char c;
+    ifstream fin;
+    
+    fin.open("textFile");
+    
+    if (fin.is_open()) {
+        
+        fin >> c;
+        cout << c <<  endl;
+        fin.close();
+    }
+    
+    else {
+        cout << "Unable to read from file!" << endl;
+        
+    }
+    
+    
     std::cout << "Hello, World!\n";
     return 0;
 }
