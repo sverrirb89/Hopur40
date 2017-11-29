@@ -8,18 +8,21 @@
 
 #include <iostream>
 #include <fstream>
+#include <string>
 using namespace std;
-int main(int argc, const char * argv[]) {
+
+int main() {
     
-    char c;
+    string c;
     ifstream fin;
-    
-    fin.open("textFile");
-    
-    if (fin.is_open()) {
-        
-        fin >> c;
-        cout << c <<  endl;
+    char answer;
+
+    fin.open("TextFile.txt");
+    if (fin.is_open() ) {
+        while (!fin.eof() ) {
+            getline(fin, c);
+            cout << c << endl;
+        }
         fin.close();
     }
     
@@ -29,6 +32,5 @@ int main(int argc, const char * argv[]) {
     }
     
     
-    std::cout << "Hello, World!\n";
-    return 0;
+    
 }
