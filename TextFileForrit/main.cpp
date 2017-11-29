@@ -1,28 +1,5 @@
 #include <iostream>
 #include <fstream>
-<<<<<<< HEAD
-#include <string>
-using namespace std;
-
-int main() {
-    
-    string c;
-    ifstream fin;
-    char answer;
-
-    fin.open("TextFile.txt");
-    if (fin.is_open() ) {
-        while (!fin.eof() ) {
-            getline(fin, c);
-            cout << c << endl;
-        }
-        fin.close();
-    }
-    
-    else {
-        cout << "Unable to read from file!" << endl;
-=======
-#include "header.hpp"
 using namespace std;
 
 
@@ -46,7 +23,6 @@ int main() {
         else {
             cout << "Unable to read from file!" << endl;
         }
->>>>>>> bbbb0ab98f283b31e3dd59ccc33d079a8eec412b
         
         do {
             cout << "Continue? (y/n)" << endl;
@@ -56,10 +32,6 @@ int main() {
     
     fin.close();
     
-<<<<<<< HEAD
-    
-=======
     return 0;
->>>>>>> bbbb0ab98f283b31e3dd59ccc33d079a8eec412b
 }
 
