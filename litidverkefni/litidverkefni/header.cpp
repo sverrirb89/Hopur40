@@ -47,8 +47,34 @@ void Superhero::setSuperPower(char super){
 
 ostream& operator << (ostream& out, Superhero& hero){
     
-    out << hero.getName() << endl;
-    out << hero.getAge() << endl;
-    out << hero.getSuperPower() << endl;
-    return out;
+    out << hero.getName() << " ";
+    out << "("<<hero.getAge() <<") : " ;
+    
+    
+    if(hero.getSuperPower() == 'f'){
+    out << "Flying" << endl;
+    }
+    else if (hero.getSuperPower() == 'g'){
+        out << "Giant" << endl;
+
+    }
+    else if (hero.getSuperPower() == 'h'){
+        out << "Hacker" << endl;
+        
+    }
+    else if (hero.getSuperPower() == 'n'){
+        out << "None" << endl;
+        
+    }
+    else {
+        
+        out << "Weakling" << endl;
+    }
+        return out;
+}
+
+istream& operator >> (istream& in, Superhero& hero){
+    in >> hero.name >> hero.age >> hero.superpower;
+    return in;
+    
 }
