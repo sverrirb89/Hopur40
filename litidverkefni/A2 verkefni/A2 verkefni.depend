@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1512496150 source:c:\users\selin\documents\verklegt námskeið\a2 verkefni\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
