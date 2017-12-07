@@ -32,8 +32,19 @@ void AdminUI::validate_input(char input) {
 
     }
     else if (input == '2'){
-        cout << "Getting salary with SSN." << endl;
-        // cin til að setja inn kennitölu
+        string ssn = "";
+        cout << "Input SSN: ";
+        cin >> ssn;
+        //CHeck exceptions
+
+        vector<PaySlip> myvector = payslip_service.readFromFIle(ssn);
+        if (myvector.size() == 0){
+            cout << "Unfortunately no persons were found with that social security number" << endl;
+        }
+        for (int i = 0; i < myvector.size(); i++){
+            cout << "Person " << i << ": " << myvector[i].get_name() << " " << myvector[i].get_ssn() << " " << myvector[i].get_salary() << " " << myvector[i].get_month() << " " << myvector[i].get_year() << endl;
+        }
+        cout << endl << endl;
     }
     else if (input == '3'){
         cout << "Getting total year salary." << endl;

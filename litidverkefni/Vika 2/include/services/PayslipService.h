@@ -9,6 +9,7 @@ class PayslipService
     public:
         PayslipService();
         void add_payslip(const PaySlip& payslip);
+        vector<PaySlip> readFromFIle(string ssn);
     private:
         Repository payslip_repo;
 

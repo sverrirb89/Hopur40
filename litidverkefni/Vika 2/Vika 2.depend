@@ -33,3 +33,39 @@
 1512657975 source:c:\users\selin\documents\verklegt námskeið\vika 2\src\repositories\repository.cpp
 	"Repository.h"
 
+1512610210 source:c:\users\selin\desktop\verk\hopur40\litidverkefni\vika 2\main.cpp
+	<iostream>
+	"PaySlip.h"
+	"AdminUI.h"
+
+1512667537 c:\users\selin\desktop\verk\hopur40\litidverkefni\vika 2\include\payslip\payslip.h
+	<iostream>
+	<string>
+
+1512665702 c:\users\selin\desktop\verk\hopur40\litidverkefni\vika 2\include\ui\adminui.h
+	"AdminUI.h"
+	"PayslipService.h"
+
+1512668172 c:\users\selin\desktop\verk\hopur40\litidverkefni\vika 2\include\services\payslipservice.h
+	"PaySlip.h"
+	"Repository.h"
+
+1512667977 c:\users\selin\desktop\verk\hopur40\litidverkefni\vika 2\include\repositories\repository.h
+	"PaySlip.h"
+	<fstream>
+	<vector>
+
+1512667351 source:c:\users\selin\desktop\verk\hopur40\litidverkefni\vika 2\src\payslip\payslip.cpp
+	"PaySlip.h"
+
+1512668566 source:c:\users\selin\desktop\verk\hopur40\litidverkefni\vika 2\src\repositories\repository.cpp
+	"Repository.h"
+	<sstream>
+
+1512668705 source:c:\users\selin\desktop\verk\hopur40\litidverkefni\vika 2\src\services\payslipservice.cpp
+	"PayslipService.h"
+
+1512666665 source:c:\users\selin\desktop\verk\hopur40\litidverkefni\vika 2\src\ui\adminui.cpp
+	"AdminUI.h"
+	<iostream>
+

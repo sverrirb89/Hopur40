@@ -15,7 +15,6 @@ class AdminUI
         void validate_input(char input);
         PaySlip New_Payslip();
         PayslipService payslip_service;
-
 };
 
 #endif // ADMINUI_H

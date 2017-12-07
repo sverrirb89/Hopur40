@@ -12,3 +12,8 @@ void PayslipService::add_payslip(const PaySlip& payslip)
     cout << payslip << endl;
     cout << endl;
 }
+
+vector<PaySlip> PayslipService::readFromFIle(string ssn)
+{
+    return payslip_repo.withSameSsn(ssn);
+}
