@@ -71,12 +71,12 @@
 			children = (
 				B3BF55521FD05665007199B6 /* main.cpp */,
 				B3BF55591FD05745007199B6 /* header.cpp */,
-				B3BF555C1FD06719007199B6 /* userinterface.cpp */,
 				B3BF55601FD06E5F007199B6 /* makepizza.hpp */,
 				B3BF555F1FD06E5F007199B6 /* makepizza.cpp */,
 				B3BF55621FD07263007199B6 /* toppings.cpp */,
 				B3BF55631FD07264007199B6 /* toppings.hpp */,
 				B3BF555D1FD06719007199B6 /* userinterface.hpp */,
+				B3BF555C1FD06719007199B6 /* userinterface.cpp */,
 				B3BF555A1FD05745007199B6 /* header.hpp */,
 			);
 			path = storaverkefni;

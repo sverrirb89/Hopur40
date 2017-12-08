@@ -11,7 +11,13 @@
 using namespace std;
 
 
-UI::UI(){}
+UI::UI(){
+  
+     this->nafn_pizzu = "";
+    this-> size = 0;
+    this-> alegg = "" ;
+    this->others = "";
+}
 UI::~UI(){}
 //userinterfaceið
 
@@ -35,3 +41,23 @@ void UI::veldunotanda(){
     //við aleggi og breyta verði, breyta verði á pizzum, gera matseðil og eitthvað lata þetta fara í skrá sem salesman getur náð í.
     
 }
+string UI::getName(){
+    return nafn_pizzu;
+}
+void UI::setName(string newName){
+    nafn_pizzu = newName;
+}
+int UI::getsize(){
+    return size;
+}
+void UI::setsize(int number){
+    size = number;
+}
+string UI::getalegg(){
+    return alegg;
+}
+void UI::setalegg(char super){
+    alegg = super;
+}
+
+
