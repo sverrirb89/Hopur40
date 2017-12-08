@@ -2,32 +2,34 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Verkefni 2" />
+		<Option title="Vika 2" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Verkefni 2" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Vika 2" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="include/model" />
+					<Add directory="include/payslip" />
 					<Add directory="include/ui" />
 					<Add directory="include/services" />
+					<Add directory="include/repositories" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/Verkefni 2" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Vika 2" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
-					<Add directory="include/model" />
+					<Add directory="include/payslip" />
 					<Add directory="include/ui" />
 					<Add directory="include/services" />
+					<Add directory="include/repositories" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -38,13 +40,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/model/PaySlip.h" />
-		<Unit filename="include/services/Service.h" />
-		<Unit filename="include/ui/userInterface.h" />
+		<Unit filename="include/payslip/PaySlip.h" />
+		<Unit filename="include/repositories/Repository.h" />
+		<Unit filename="include/services/PayslipService.h" />
+		<Unit filename="include/ui/AdminUI.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/model/PaySlip.cpp" />
-		<Unit filename="src/services/Service.cpp" />
-		<Unit filename="src/ui/userInterface.cpp" />
+		<Unit filename="src/payslip/PaySlip.cpp" />
+		<Unit filename="src/repositories/Repository.cpp" />
+		<Unit filename="src/services/PayslipService.cpp" />
+		<Unit filename="src/ui/AdminUI.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
