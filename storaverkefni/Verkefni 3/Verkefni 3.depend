@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1512946805 source:c:\users\selin\documents\verklegt námskeið\new folder\verkefni 3\main.cpp
+	<iostream>
+	"Userinterface.h"
+	"Pizza.h"
+
+1513005602 c:\users\selin\documents\verklegt námskeið\new folder\verkefni 3\include\ui\userinterface.h
+	"Pizza.h"
+	"Topping.h"
+	<stdio.h>
+	<string>
+	<vector>
+	"pizzaservices.h"
+
+1512946805 c:\users\selin\documents\verklegt námskeið\new folder\verkefni 3\include\model\pizza.h
+	<vector>
+	<stdio.h>
+	<string>
+	<iostream>
+	"Topping.h"
+
+1512946805 c:\users\selin\documents\verklegt námskeið\new folder\verkefni 3\include\model\topping.h
+	<stdio.h>
+	"Pizza.h"
+
+1512947569 c:\users\selin\documents\verklegt námskeið\new folder\verkefni 3\include\services\pizzaservices.h
+	"Pizza.h"
+	<stdio.h>
+	"data.h"
+
+1512946805 source:c:\users\selin\documents\verklegt námskeið\new folder\verkefni 3\src\model\pizza.cpp
+	<fstream>
+	"Pizza.h"
+	<string>
+
+1512946805 source:c:\users\selin\documents\verklegt námskeið\new folder\verkefni 3\src\model\topping.cpp
+	"Topping.h"
+
+1513002240 source:c:\users\selin\documents\verklegt námskeið\new folder\verkefni 3\src\repository\data.cpp
+	<fstream>
+	<vector>
+	"data.h"
+	<string>
+
+1512946805 c:\users\selin\documents\verklegt námskeið\new folder\verkefni 3\include\repository\data.h
+	<stdio.h>
+	"Pizza.h"
+
+1513006505 source:c:\users\selin\documents\verklegt námskeið\new folder\verkefni 3\src\ui\userinterface.cpp
+	"Userinterface.h"
+	"Pizza.h"
+	<fstream>
+	<iostream>
+
+1513003570 source:c:\users\selin\documents\verklegt námskeið\new folder\verkefni 3\src\services\pizzaservices.cpp
+	"pizzaservices.h"
+	<iostream>
+	<vector>
+

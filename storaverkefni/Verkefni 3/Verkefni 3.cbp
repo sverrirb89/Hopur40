@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Verkefni 3" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Verkefni 3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include/Repository" />
+					<Add directory="include/Model" />
+					<Add directory="include/Service" />
+					<Add directory="include/ui" />
+					<Add directory="include/Services" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Verkefni 3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include/Repository" />
+					<Add directory="include/Model" />
+					<Add directory="include/Service" />
+					<Add directory="include/ui" />
+					<Add directory="include/Services" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Model/Pizza.h" />
+		<Unit filename="include/Model/Topping.h" />
+		<Unit filename="include/Repository/data.h" />
+		<Unit filename="include/Services/pizzaservices.h" />
+		<Unit filename="include/ui/Userinterface.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Model/Pizza.cpp" />
+		<Unit filename="src/Model/Topping.cpp" />
+		<Unit filename="src/Repository/data.cpp" />
+		<Unit filename="src/Services/pizzaservices.cpp" />
+		<Unit filename="src/ui/Userinterface.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

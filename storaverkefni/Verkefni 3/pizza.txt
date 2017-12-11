@@ -1,0 +1,26 @@
+Nafn pizzu: Ella 
+Stærð pizzu: 14tommur 
+Pizza kostar: 1190kr 
+ Álegg: pepp, hakk, sveppir,  
+ 
+ -Nafn pizzu: st¡na 
+Stærð pizzu: 20tommur 
+Pizza kostar: ¢sakr 
+ Álegg: makkar¢nur, s¡ld, salsa,  
+ 
+ -Nafn pizzu: jakob 
+Stærð pizzu: 9tommur 
+Pizza kostar: 990kr 
+ Álegg: hakk, mysa, tuna,  
+ 
+ -Nafn pizzu: nonni 
+Stærð pizzu: 7tommur 
+Pizza kostar: 655kr 
+ Álegg: beikon,  
+ 
+ -Nafn pizzu: minecraft 
+Stærð pizzu: 12tommur 
+Pizza kostar: 100kr 
+ Álegg: pepperoni,  
+ 
+ -
