@@ -29,7 +29,7 @@ void Repository::read_from_file(){
         while(!fin.eof()){
             //Annar klasi kæmi hingað inn (t.d. OrderModalClass klasinn sem geymir upplýsingar um allar pantanirnar)
             PaySlip P;
-            string file;
+            string file;s
             //fin >> file les inn næstu línu í skjalinu ykkar í stringinn file í gegnum while lúppuna
             fin >> file;
 
